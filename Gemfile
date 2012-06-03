@@ -8,6 +8,7 @@ gem 'rails', '3.2.5'
 group :development, :test do
 gem 'sqlite3'
 gem 'rspec-rails'
+gem 'guard-rspec'
 end
 
 
@@ -24,7 +25,13 @@ group :assets do
 end
 
 group :test do
-  gem 'capybara'
+gem 'rspec-rails'
+gem 'capybara'
+gem 'rb-fchange'
+gem 'rb-notifu'
+gem 'win32console'
+gem 'guard-spork'
+gem 'spork'
 end
 
 group :production do
