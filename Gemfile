@@ -35,6 +35,7 @@ gem 'rb-notifu'
 gem 'win32console'
 gem 'guard-spork'
 gem 'spork'
+gem 'factory_girl_rails'
 end
 
 group :production do
