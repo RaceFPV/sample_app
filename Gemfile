@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.2.5'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
+gem 'faker'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
